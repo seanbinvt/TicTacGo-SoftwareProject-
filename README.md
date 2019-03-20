@@ -17,12 +17,12 @@ User inputs a possible title and description with due date. Can send notificatio
 ### 2. (Roslyn Parker) Tic-Tac-Toe: 
 A user can select what x and o "icon" they want, and then they can select if they want to play with a friend (two users for one device)
 or against the computer. There would be 3 levels of diffuculty against a computer, easy(random), medium(random + sometimes best choice), 
-and hard (always best choice by ai). We know how to implement multiply activities, and most of the ropes, but we don't know how to implement images or "icons". 
+and hard (always best choice by ai).
 
 ###### *Obtained Skills:* 
-  - 
+  - Implementing multiple activities.
   
 ###### *Needed Skills:* 
-  - 
+  - Images/Icons.
 
 ------
