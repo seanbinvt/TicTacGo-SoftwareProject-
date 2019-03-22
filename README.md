@@ -26,3 +26,12 @@ and hard (always best choice by ai).
   - Images/Icons.
 
 ------
+
+
+### 3. (James Kilgus) Live Mapping Program: 
+Using the google maps API and geolocation, users would be able to generate a map on the fly that only maps places they have been. Places they have not yet visited are still black and unmapped. This may be possible to do using the mask function although it may be way too difficult so we will have to see. Essentially you would apply a black 'mask' layer to everywhere you haven't visited yet. You could set a certain size block and say map by square mile or something like that. So if you entered a new square mile the whole thing would then instantly be mapped in your map which would be tied to your user id. Each user would have their own map of just where they've been.
+
+### 4. Extra Visual Sense
+Human vision sees a relatively narrow portion of the color spectrum. Our phones may be able to see farther into the infrared and ultraviolet regions than we can. If we could somehow filter these color spaces from the camera and then shift them into a spectrum that we can see, we could have a some way of extending our visual sense. I don't know if this is possible either but this is just brainstorming so we will have to look into it
+
+------
