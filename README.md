@@ -6,9 +6,13 @@ Project Planning:
 Tasks:
 
 Roslyn: *Main Landing page.
----
+
+-----
+
 Roslyn: *Settings page and send set settings > game page.
----
+
+------
+
 Roslyn: *PvP mode.
 
 Sean: *Refactoring AI code.
