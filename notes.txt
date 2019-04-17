@@ -2,3 +2,5 @@ link to site for app icons: https://dev.to/_s_farias/how-to-create-adaptive-icon
 
 link to add images/drawables: https://stackoverflow.com/questions/29047902/how-to-add-an-image-to-the-drawable-folder-in-android-studio
 another: https://www.homeandlearn.co.uk/android/adding_images_to_android.html
+
+exiting the app with a quit button: https://stackoverflow.com/questions/6014028/closing-application-with-exit-button
