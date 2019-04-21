@@ -13,7 +13,7 @@ Roslyn: *Settings page and send set settings > game page.
 
 ------
 
-Roslyn: *PvP mode.
+Roslyn: *PvP mode. 
 
 Sean: *Refactoring AI code.
 Sean: *AI mode.
@@ -25,4 +25,4 @@ James(?): *Win checking.
 Post-completion Section:
 *Custom icons instead of X/Os.
 *Dark/night mode.
-*Possible sounds | music.
+*Possible sounds && music for winning a game. Alternatively a sound for losing.
