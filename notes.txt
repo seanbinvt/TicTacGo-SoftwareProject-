@@ -1,6 +1,55 @@
-link to site for app icons: https://dev.to/_s_farias/how-to-create-adaptive-icons-for-android-using-android-studio-459h
+package tictactoe
+	class Board
+	abstract class Player
+		abstract void move()
 
-link to add images/drawables: https://stackoverflow.com/questions/29047902/how-to-add-an-image-to-the-drawable-folder-in-android-studio
-another: https://www.homeandlearn.co.uk/android/adding_images_to_android.html
+		abstract Human extends Player
+			abstract void makeHumanMove();
+		SmartAI extends Player
+		DumbAI extrends Player
+	
+	class Game
+		contains Board
+		contains Player xPlayer
+		contains Player oPlayer
 
-exiting the app with a quit button: https://stackoverflow.com/questions/6014028/closing-application-with-exit-button
+
+
+package android stuff I can't remember the package name whatever
+	GameActivity
+		contains tictactoe.Game
+
+		void exit()
+		
+		void doMove()
+			
+
+
+
+
+
+
+abstract class Player {
+	abstract void move();
+}
+
+class SmartAI extends Player {
+	void move() {
+		... smart AI stuff...
+	}
+}
+
+abstract Human extends Player {
+	void move() {
+		makeHumanMove()
+	}
+
+	abstract makeHumanmove();
+}
+
+AppHumanPlayer extends tictactoe.Human {
+	void makeHumanMove() {
+	}
+	
+}
+	
