@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".ModeActivity">
+
+    <ImageView
+        android:layout_width="@dimen/splash_image_w"
+        android:layout_height="@dimen/splash_image_h"
+        android:layout_gravity="center"
+        android:background="@drawable/pvc"/>
+
+    <Button
+        android:id="@+id/easy"
+        android:onClick="buttonEasyClick"
+        android:text="@string/easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/text_color"
+        android:background="@color/landing_button" />
+
+    <Button
+        android:id="@+id/medium"
+        android:onClick="buttonMediumClick"
+        android:text="@string/medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/text_color"
+        android:background="@color/landing_button" />
+
+    <Button
+        android:id="@+id/hard"
+        android:onClick="buttonHardClick"
+        android:text="@string/hard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/text_color"
+        android:background="@color/landing_button" />
+
+    <Button
+        android:id="@+id/back"
+        android:onClick="backButton"
+        android:text="@string/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/text_color"
+        android:background="@color/landing_button" />
+
+</LinearLayout>

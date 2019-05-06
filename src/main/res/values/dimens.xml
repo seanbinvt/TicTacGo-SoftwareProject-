@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">20dp</dimen>
+    <dimen name="button_padding">10dp</dimen>
+    <dimen name="button_text_size">24dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="image_button_h_w">100dp</dimen>
+    <dimen name="splash_image_h">150dp</dimen>
+    <dimen name="splash_image_w">250dp</dimen>
+
+</resources>

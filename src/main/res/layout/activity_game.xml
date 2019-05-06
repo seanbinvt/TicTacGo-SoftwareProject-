@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:orientation="vertical"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:layout_marginTop="65dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/one"
+            android:layout_width="@dimen/image_button_h_w"
+            android:layout_height="@dimen/image_button_h_w"
+            android:onClick="buttonClick"/>
+
+        <ImageButton
+            android:id="@+id/two"
+            android:layout_width="@dimen/image_button_h_w"
+            android:layout_height="@dimen/image_button_h_w"
+            android:onClick="buttonClick"/>
+
+        <ImageButton
+            android:id="@+id/three"
+            android:layout_width="@dimen/image_button_h_w"
+            android:layout_height="@dimen/image_button_h_w"
+            android:onClick="buttonClick"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/four"
+            android:layout_width="@dimen/image_button_h_w"
+            android:layout_height="@dimen/image_button_h_w"
+            android:onClick="buttonClick"/>
+
+        <ImageButton
+            android:id="@+id/five"
+            android:layout_width="@dimen/image_button_h_w"
+            android:layout_height="@dimen/image_button_h_w"
+            android:onClick="buttonClick"/>
+
+        <ImageButton
+            android:id="@+id/six"
+            android:layout_width="@dimen/image_button_h_w"
+            android:layout_height="@dimen/image_button_h_w"
+            android:onClick="buttonClick"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/seven"
+            android:layout_width="@dimen/image_button_h_w"
+            android:layout_height="@dimen/image_button_h_w"
+            android:onClick="buttonClick"/>
+
+        <ImageButton
+            android:id="@+id/eight"
+            android:layout_width="@dimen/image_button_h_w"
+            android:layout_height="@dimen/image_button_h_w"
+            android:onClick="buttonClick"/>
+
+        <ImageButton
+            android:id="@+id/nine"
+            android:layout_width="@dimen/image_button_h_w"
+            android:layout_height="@dimen/image_button_h_w"
+            android:onClick="buttonClick"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/game_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/turn"
+        android:layout_marginTop="@dimen/margin"
+        android:textSize="@dimen/button_text_size"/>
+
+    <Button
+        android:id="@+id/exit"
+        android:onClick="exitButton"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_margin="@dimen/margin"
+        android:layout_gravity="center"
+        android:text="@string/exit"
+        android:textSize="@dimen/button_text_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/button_padding"
+        android:textColor="@color/text_color"
+        android:background="@color/landing_button"/>
+
+
+
+</LinearLayout>

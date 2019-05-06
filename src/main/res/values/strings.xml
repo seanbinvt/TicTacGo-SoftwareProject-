@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TicTacToe2</string>
+    <string name="play">play</string>
+    <string name="pvp">Play with a Friend</string>
+    <string name="ai">Play with AI</string>
+    <string name="highscore">High Score Board</string>
+    <string name="info">Information</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Exit Game</string>
+    <string name="turn">X starts first!</string>
+
+    <string name="easy">Easy Mode</string>
+    <string name="medium">Medium Mode</string>
+    <string name="hard">Hard Mode</string>
+
+    <string name="back_button">Back</string>
+
+    <string name="about">Tic Tac Go is a variation on the game Tic Tac Toe or more generally known Xs and Os.
+                        The way to win in Tic Tac Go is simple, get three tiles in a row of the same kind.</string>
+
+    <string name="corp">SJR Enterprises</string>
+</resources>

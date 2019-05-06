@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="@dimen/splash_image_w"
+        android:layout_height="@dimen/splash_image_h"
+        android:layout_gravity="center"
+        android:background="@drawable/splash"/>
+
+    <Button
+        android:id="@+id/pvp_mode"
+        android:text="@string/pvp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/text_color"
+        android:background="@color/landing_button"
+        android:onClick="buttonPlayPVP"/>
+
+    <Button
+        android:id="@+id/pvc_mode"
+        android:text="@string/ai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/text_color"
+        android:background="@color/landing_button"
+        android:onClick="buttonPlayPVC"/>
+    <Button
+        android:id="@+id/settings"
+        android:text="@string/settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/text_color"
+        android:background="@color/landing_button" />
+    <Button
+        android:id="@+id/info"
+        android:text="@string/info"
+        android:onClick="info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/text_color"
+        android:background="@color/landing_button" />
+    <Button
+        android:id="@+id/exit"
+        android:text="@string/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/text_color"
+        android:background="@color/landing_button"
+        android:onClick="closeGame"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/corp"
+        android:textSize="@dimen/button_text_size"/>
+
+
+</LinearLayout>
